@@ -1,0 +1,26 @@
+
+<div id="dialog" title="Important information">
+    <span class="ui-state-default">wow<span class="ui-icon ui-icon-info" style="float:left; margin:0 7px 0 0;"></span></span>
+    <div style="margin-left: 23px;">
+        <p>
+           check out all these dank new apps, yo 
+        </p>
+
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+ <script>
+  $(function() {
+    $("#dialog").dialog({
+    resizable: false,
+    show: 'blind',
+    hide: 'blind',
+    width: 400,
+    dialogClass: 'ui-dialog-win95',
+    buttons: {
+        "take me": function() {
+            $(this).dialog("close");
+        }
+    }
+});
+  });
+  </script>

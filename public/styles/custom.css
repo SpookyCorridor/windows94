@@ -49,6 +49,11 @@ section {
     top: 38%;
     left: 40%;
     list-style-image: url("http://i.imgur.com/h8TxMuF.png"); }
+  section #purchase-list {
+    position: absolute;
+    left: 55%;
+    color: #F3FF00;
+    text-shadow: -2px 2px 10px #D5C70F; }
   section #features-two {
     background: url("http://i.imgur.com/z4yx8Yv.gif") repeat center center fixed;
     background-size: cover;
@@ -61,10 +66,28 @@ section {
     background-color: #3775D9;
     background-image: none;
     background-size: cover;
-    height: 700px; }
+    height: 700px;
+    color: #F3FF00;
+    text-shadow: -2px 2px 10px #D5C70F; }
     section #purchase p {
       color: #F3FF00;
-      text-shadow: -2px 2px 10px #D5C70F; }
+      text-align: justify;
+      text-shadow: -2px 2px 10px #D5C70F;
+      font-size: 2rem;
+      width: 400px;
+      float: left; }
+    section #purchase img {
+      float: left;
+      width: 450px;
+      height: 350px; }
+    section #purchase h2 {
+      clear: both;
+      text-align: center;
+      font-size: 2rem;
+      padding-top: 80px; }
+    section #purchase h2:last-child:after {
+      content: "$$$";
+      color: #00D532; }
 
 footer {
   color: #F7F7F7;
@@ -82,5 +105,17 @@ footer {
 
 .shadow {
   text-shadow: -5px 5px 0px #00e6e6, -7px 7px 0px #01cccc, -11px 11px 0px #522ABD; }
+
+button {
+  padding: 5px;
+  margin-left: 20px;
+  background-color: #00D51D;
+  color: white; }
+
+.ui-dialog-win95 {
+  -moz-border-radius: 0 0 8px 8px;
+  -webkit-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+  border-width: 0 8px 8px 8px; }
 
 /*# sourceMappingURL=custom.css.map */
