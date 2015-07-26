@@ -63,6 +63,16 @@ $(document).ready(function() {
     }, 500);
 });
 
+	// parallax 
+	$(window).stellar();
 
+	// blinky shadows 
+	$('.shadow').each(function() {
+		var elem = $(this);
+		setInterval(function() {
+
+  		$( elem ).toggleClass();
+		}, 1000);
+	});
 });
 

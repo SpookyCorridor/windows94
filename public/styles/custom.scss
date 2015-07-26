@@ -72,6 +72,18 @@ section {
 		left: 40%;	
 		list-style-image: url('http://i.imgur.com/h8TxMuF.png');
 	}
+	
+	#features-two {
+		background: url('http://i.imgur.com/z4yx8Yv.gif') repeat center center fixed;
+		background-size: cover;
+		height: 700px;
+		p {
+		font-size: $font-size-body;
+		color: transparent;
+		transition: text-shadow 1s ease; 
+		}
+	
+	}
 
 }
 
@@ -91,3 +103,10 @@ footer {
  		 -webkit-text-fill-color: transparent;
 	}
 }
+
+.shadow {
+	text-shadow: -5px 5px 0px #00e6e6,
+                 -7px 7px 0px #01cccc,
+                 -11px 11px 0px #522ABD;
+	}
+
