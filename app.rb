@@ -13,12 +13,12 @@ class Invigoron < Sinatra::Base
 		erb :features 
 	end 
 
-	get '/packages' do 
-		erb :packages 
+	get '/purchase' do 
+		erb :purchase 
 	end 
 
-	get '/recruit' do 
-		erb :recruit 
+	get '/software' do 
+		erb :software 
 	end 
 	
 	get '/contact' do
