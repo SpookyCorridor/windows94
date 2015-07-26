@@ -55,6 +55,13 @@ $(document).ready(function() {
 	init();
 
 
+	// blinky text 
+	$('.blink').each(function() {
+    var elem = $(this);
+    setInterval(function() {
+            elem.css('visibility', 'visible').toggle();
+    }, 500);
+});
 
 
 });

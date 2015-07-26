@@ -9,8 +9,8 @@ class Invigoron < Sinatra::Base
 		erb :index 
 	end 
 
-	get '/about' do 
-		erb :about 
+	get '/features' do 
+		erb :features 
 	end 
 
 	get '/packages' do 

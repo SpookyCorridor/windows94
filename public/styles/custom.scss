@@ -26,7 +26,6 @@ header {
 		font-size: $font-size-hero;
 		color: #F7F7F7;
 		background-color: navy;
-		margin-bottom: 20px;
 		#slogan {
 			font-size: $font-size-body - .5;
 		}
@@ -44,26 +43,29 @@ header {
  		 	-webkit-text-fill-color: transparent;
  		 	a {
  		 		text-decoration: underline; 
- 		 		border-bottom: 1px solid #42C2D7; 
+ 		 		border-bottom: 1px solid #42C2D7;
  		 	}
 		}
 	}
 }
 
 section {
+	margin: 0;
 	article {
-		text-align: justify;
-		float: right;
-		background-color: #68E942;
-		display: inline;
-		width: 70%; 
+		background: cover;
+		background-image: url('/images/hype.gif');
+		p {
+			font-size: $font-size-hero; 
+			text-align: center;
+			margin-top: 5px;
+		}
+	}
 
+	#features {
+		background-image: url('/images/speed.gif');
+		height: 700px;
 	}
-	#index img {
-		float: left; 
-		display: inline;
-		width: 30%;
-	}
+
 }
 
 footer {
@@ -72,6 +74,7 @@ footer {
 	padding: 10px; 
 	clear: both;
 	height: 90px;
+	margin-bottom: 30px;
 	p {
 
 		font-size: $font-size-footer;

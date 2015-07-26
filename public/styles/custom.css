@@ -12,8 +12,7 @@ header #logo {
   font-family: "impact", serif;
   font-size: 4.5rem;
   color: #F7F7F7;
-  background-color: navy;
-  margin-bottom: 20px; }
+  background-color: navy; }
   header #logo #slogan {
     font-size: 1.5rem; }
 header ul {
@@ -29,23 +28,26 @@ header ul {
       text-decoration: underline;
       border-bottom: 1px solid #42C2D7; }
 
-section article {
-  text-align: justify;
-  float: right;
-  background-color: #68E942;
-  display: inline;
-  width: 70%; }
-section #index img {
-  float: left;
-  display: inline;
-  width: 30%; }
+section {
+  margin: 0; }
+  section article {
+    background: cover;
+    background-image: url("/images/hype.gif"); }
+    section article p {
+      font-size: 4.5rem;
+      text-align: center;
+      margin-top: 5px; }
+  section #features {
+    background-image: url("/images/speed.gif");
+    height: 700px; }
 
 footer {
   color: #F7F7F7;
   background-image: url("/images/header.jpg");
   padding: 10px;
   clear: both;
-  height: 90px; }
+  height: 90px;
+  margin-bottom: 30px; }
   footer p {
     font-size: 3.5rem;
     text-align: center;

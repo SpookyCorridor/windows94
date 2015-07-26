@@ -39,3 +39,8 @@ build/
 
 **/.sass-cache
 **/.sass-cache/*
+
+#images
+
+/public/images/*.gif
+/public/images/*.jpg
