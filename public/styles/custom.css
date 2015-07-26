@@ -4,7 +4,9 @@ html {
 body {
   font-family: "Times New Roman", sans-serif;
   width: 80%;
-  margin: 0 auto; }
+  max-width: 968px;
+  margin: 0 auto;
+  background-color: #202322; }
 
 header #logo {
   font-family: "impact", serif;
@@ -19,7 +21,13 @@ header ul {
   padding: 0; }
   header ul li {
     display: inline;
-    margin: 0 10px; }
+    margin: 0 10px;
+    background: -webkit-linear-gradient(25deg, #FF52C6, #38B2F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+    header ul li a {
+      text-decoration: underline;
+      border-bottom: 1px solid #42C2D7; }
 
 section article {
   text-align: justify;
@@ -34,8 +42,15 @@ section #index img {
 
 footer {
   color: #F7F7F7;
-  background-color: navy;
-  padding: 20px;
-  clear: both; }
+  background-image: url("/images/header.jpg");
+  padding: 10px;
+  clear: both;
+  height: 90px; }
+  footer p {
+    font-size: 3.5rem;
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #FF37DC, #F4E80E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 /*# sourceMappingURL=custom.css.map */
