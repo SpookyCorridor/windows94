@@ -20,6 +20,11 @@ body {
 	background-color: #202322;
 }
 
+#body-purchase {
+	background: url('http://i.imgur.com/u5bynwL.gif');
+		background-size: cover;
+}
+
 header {
 	#logo {
 		font-family: $font-logo;
@@ -72,7 +77,7 @@ section {
 		left: 40%;	
 		list-style-image: url('http://i.imgur.com/h8TxMuF.png');
 	}
-	
+
 	#features-two {
 		background: url('http://i.imgur.com/z4yx8Yv.gif') repeat center center fixed;
 		background-size: cover;
@@ -83,6 +88,19 @@ section {
 		transition: text-shadow 1s ease; 
 		}
 	
+	}
+
+	#purchase {
+		background-color: #3775D9;
+		background-image: none; 
+		background-size: cover;
+		height: 700px; 
+
+		p {
+			color: #F3FF00;
+
+			text-shadow: -2px 2px 10px #D5C70F;
+		}
 	}
 
 }

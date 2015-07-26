@@ -8,6 +8,10 @@ body {
   margin: 0 auto;
   background-color: #202322; }
 
+#body-purchase {
+  background: url("http://i.imgur.com/u5bynwL.gif");
+  background-size: cover; }
+
 header #logo {
   font-family: "impact", serif;
   font-size: 4.5rem;
@@ -53,6 +57,14 @@ section {
       font-size: 2rem;
       color: transparent;
       transition: text-shadow 1s ease; }
+  section #purchase {
+    background-color: #3775D9;
+    background-image: none;
+    background-size: cover;
+    height: 700px; }
+    section #purchase p {
+      color: #F3FF00;
+      text-shadow: -2px 2px 10px #D5C70F; }
 
 footer {
   color: #F7F7F7;

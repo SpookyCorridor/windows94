@@ -14,7 +14,7 @@ class Invigoron < Sinatra::Base
 	end 
 
 	get '/purchase' do 
-		erb :purchase 
+		erb :purchase, :layout => false 
 	end 
 
 	get '/software' do 
