@@ -159,6 +159,15 @@ section {
 		margin-left: 25%;
 	}
 
+	#error {
+		background-image: none;
+		h1 {
+			font-size: $font-size-hero;
+			color: #F54400;
+			text-align: center;
+		}
+	}
+
 
 }
 

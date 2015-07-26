@@ -22,6 +22,6 @@ class Invigoron < Sinatra::Base
 	end 
 	
 	get '/contact' do
-		erb :contact 
+		erb :error, :layout => false 
 	end 
 end 

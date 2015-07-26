@@ -105,6 +105,12 @@ section {
       -webkit-text-fill-color: transparent; }
   section #software-two img {
     margin-left: 25%; }
+  section #error {
+    background-image: none; }
+    section #error h1 {
+      font-size: 4.5rem;
+      color: #F54400;
+      text-align: center; }
 
 footer {
   color: #F7F7F7;

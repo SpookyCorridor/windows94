@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ERROR ERROR ERROR</title>
+	<link rel="stylesheet" type="text/css" href="/styles/custom.css">
+	<script type="text/javascript" src="/js/jquery.js"></script>
+</head>
+<body>
+
+<header> 
+	
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/purchase">Purchase</a></li>
+			<li><a href="/features">Features</a></li>
+			<li><a href="/software">Software</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+<article id="error">
+	<h1 class="blink">CRITICAL ERROR</h1>
+	<H1 class="blink">turn back while you still can</H1>
+</article>
+</section>
+<script type="text/javascript">
+	$('.blink').each(function() {
+    var elem = $(this);
+    setInterval(function() {
+            elem.css('visibility', 'visible').toggle();
+    }, 500);
+});
+</script>
+</body>
+</html>
