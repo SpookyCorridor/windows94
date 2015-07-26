@@ -53,7 +53,7 @@ section {
 	margin: 0;
 	article {
 		background: cover;
-		background-image: url('/images/hype.gif');
+		background-image: url('http://i.imgur.com/f9uskjC.gifv');
 		p {
 			font-size: $font-size-hero; 
 			text-align: center;
@@ -62,7 +62,7 @@ section {
 	}
 
 	#features {
-		background-image: url('/images/speed.gif');
+		background-image: url('http://i.imgur.com/0KeeI2s.gifv');
 		height: 700px;
 	}
 
@@ -70,14 +70,14 @@ section {
 		position: absolute;
 		top: 33%;
 		left: 37%;	
-		list-style-image: url('/images/folder.png');
+		list-style-image: url('http://i.imgur.com/h8TxMuF.png');
 	}
 
 }
 
 footer {
 	color: #F7F7F7;
-	background-image: url('/images/header.jpg');
+	background-image: url('http://i.imgur.com/HQGj5lv.jpg');
 	padding: 10px; 
 	clear: both;
 	height: 90px;
