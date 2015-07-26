@@ -1,0 +1,63 @@
+$font-default: 16px; 
+$font-size-hero: 4.5rem;
+$font-size-body: 2rem;
+$font-line-body: 1.3; 
+$font-logo: 'impact', serif; 
+$font-body: 'Times New Roman', sans-serif; 
+$color-primary: hsl(56, 76%, 58%);
+$color-primary-transparent: hsla(13, 82%, 52%, .9);
+$color-secondary: hsl(156, 3%, 28%);
+
+html {
+	font-size: $font-default; 
+}
+body {
+	font-family: $font-body;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	#logo {
+		font-family: $font-logo;
+		font-size: $font-size-hero;
+		color: #F7F7F7;
+		background-color: navy;
+		margin-bottom: 20px;
+		#slogan {
+			font-size: $font-size-body - .5;
+		}
+	}
+
+	ul {
+		margin-top: 0;
+		padding: 0;
+		li {
+			display: inline;
+			margin: 0 10px;
+		}
+	}
+}
+
+section {
+	article {
+		text-align: justify;
+		float: right;
+		background-color: #68E942;
+		display: inline;
+		width: 70%; 
+
+	}
+	#index img {
+		float: left; 
+		display: inline;
+		width: 30%;
+	}
+}
+
+footer {
+	color: #F7F7F7;
+	background-color: navy;
+	padding: 20px; 
+	clear: both;
+}

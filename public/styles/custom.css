@@ -1,0 +1,41 @@
+html {
+  font-size: 16px; }
+
+body {
+  font-family: "Times New Roman", sans-serif;
+  width: 80%;
+  margin: 0 auto; }
+
+header #logo {
+  font-family: "impact", serif;
+  font-size: 4.5rem;
+  color: #F7F7F7;
+  background-color: navy;
+  margin-bottom: 20px; }
+  header #logo #slogan {
+    font-size: 1.5rem; }
+header ul {
+  margin-top: 0;
+  padding: 0; }
+  header ul li {
+    display: inline;
+    margin: 0 10px; }
+
+section article {
+  text-align: justify;
+  float: right;
+  background-color: #68E942;
+  display: inline;
+  width: 70%; }
+section #index img {
+  float: left;
+  display: inline;
+  width: 30%; }
+
+footer {
+  color: #F7F7F7;
+  background-color: navy;
+  padding: 20px;
+  clear: both; }
+
+/*# sourceMappingURL=custom.css.map */
