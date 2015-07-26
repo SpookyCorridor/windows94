@@ -66,6 +66,13 @@ section {
 		height: 700px;
 	}
 
+	ul {
+		position: absolute;
+		top: 33%;
+		left: 37%;	
+		list-style-image: url('/images/folder.png');
+	}
+
 }
 
 footer {

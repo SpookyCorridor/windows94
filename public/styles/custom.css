@@ -40,6 +40,11 @@ section {
   section #features {
     background-image: url("/images/speed.gif");
     height: 700px; }
+  section ul {
+    position: absolute;
+    top: 33%;
+    left: 37%;
+    list-style-image: url("/images/folder.png"); }
 
 footer {
   color: #F7F7F7;
