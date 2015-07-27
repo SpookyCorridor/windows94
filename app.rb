@@ -3,7 +3,7 @@ Bundler.require
 
 require 'sinatra/base'
 
-class Invigoron < Sinatra::Base
+class Win < Sinatra::Base
 
 	not_found do
  	 #send results for not found resources

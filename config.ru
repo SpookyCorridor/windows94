@@ -1,2 +1,2 @@
 require './app'
-run Invigoron
+run Win
