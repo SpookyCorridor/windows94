@@ -5,6 +5,13 @@ require 'sinatra/base'
 
 class Invigoron < Sinatra::Base
 
+	not_found do
+ 	 #send results for not found resources
+ 	 	status 404
+ 	 #{:status => 404, :message => 'Resource not found.'}.to_json
+  		erb :error, :layout => false 
+	end
+	
 	get '/' do 
 		erb :index 
 	end 
@@ -21,7 +28,4 @@ class Invigoron < Sinatra::Base
 		erb :software 
 	end 
 	
-	get '/contact' do
-		erb :error, :layout => false 
-	end 
 end 
